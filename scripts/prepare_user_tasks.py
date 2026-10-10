@@ -11,7 +11,7 @@ from urllib.parse import quote
 # CHANGE THIS
 # TODO: set this in a config file
 ############################################################
-BASE = Path("/Users/royadams/OneDrive - Johns Hopkins/scratch/test_shared_ls_project")
+BASE = Path("./")
 ############################################################
 
 master_file = BASE / "assignments" / "master_assignments.json"
