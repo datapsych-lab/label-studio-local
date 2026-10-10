@@ -1,4 +1,4 @@
-# lab-studio-local
+# label-studio-local
 This is repo contains a simple setup for coordinating use of Label Studio for annotations when you cannot run a server and instead only have a shared drive. The repo is populated with examples some examples, but the only code that really matters is in scripts. To set up a project, use the following steps:
 
 ## 0. Setup.
