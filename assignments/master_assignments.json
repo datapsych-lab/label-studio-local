@@ -1,0 +1,17 @@
+[
+  {
+    "id": "doc001",
+    "file": "doc001.txt",
+    "assigned_to": ["alice", "bob"]
+  },
+  {
+    "id": "doc002",
+    "file": "doc002.txt",
+    "assigned_to": ["alice"]
+  },
+  {
+    "id": "doc003",
+    "file": "doc003.txt",
+    "assigned_to": ["bob"]
+  }
+]

@@ -1,0 +1,11 @@
+<View>
+  <Header value="Document"/>
+  <Text name="text" value="$text"/>
+
+  <Header value="Label"/>
+  <Choices name="label" toName="text" choice="single">
+    <Choice value="Positive"/>
+    <Choice value="Negative"/>
+    <Choice value="Neutral"/>
+  </Choices>
+</View>
