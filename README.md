@@ -10,8 +10,8 @@ Copy all documents for annotation into the `docs/` directory. These should be `.
 ## 2. Create labeling schema.
 Edit `schema/schema.xml` to reflect the labeling schema you would like to use. Label Studio has a lot of documentation on creating labeling schema.
 
-## 3. Run prepare_user_tasks.py.
-This will create individual user directories and populate them with their assigned documents. It will also place a copy of run.py in each user's directory which they will use to start label studio.
+## 3. Create user directories.
+Open `prepare_user_tasks.py` and set the `BASE` path to the path to the base path for this repo. Then run `prepare_user_tasks.py`. This will create individual user directories and populate them with their assigned documents. It will also place a copy of run.py in each user's directory which they will use to start label studio.
 
 ## 4. Set up each annotators Label Studio environment.
 This is the most annoying manual part. There is probably a better way to do this, but I haven't figured it out. Complete the following steps for each annotator:
