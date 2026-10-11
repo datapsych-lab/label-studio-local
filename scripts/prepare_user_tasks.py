@@ -52,18 +52,18 @@ for user in users:
     user_setup_dir = user_dir / "setup"
     user_setup_dir.mkdir(parents=True, exist_ok=True)
     
-    setup_file = user_setup_dir / f"{user}_setup.sh"
-    
-    setup_str = f"""#!/usr/bin/env bash
-export LABEL_STUDIO_BASE_DATA_DIR="{user_ls_dir}"
-label-studio start --port 8080"""
-    
-    with open(setup_file,'w',encoding="utf-8") as f:
-        f.write(setup_str)
-        
-    current_permissions = os.stat(setup_file).st_mode
-    # Bitwise OR (|) to add owner execute permission (u+x)
-    os.chmod(setup_file, current_permissions | stat.S_IXUSR)
+  #   setup_file = user_setup_dir / f"{user}_setup.sh"
+#
+#     setup_str = f"""#!/usr/bin/env bash
+# export LABEL_STUDIO_BASE_DATA_DIR="{user_ls_dir}"
+# label-studio start --port 8080"""
+#
+#     with open(setup_file,'w',encoding="utf-8") as f:
+#         f.write(setup_str)
+    #
+    # current_permissions = os.stat(setup_file).st_mode
+    # # Bitwise OR (|) to add owner execute permission (u+x)
+    # os.chmod(setup_file, current_permissions | stat.S_IXUSR)
     
     print(f"Set up users/{user}")
 

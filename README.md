@@ -16,7 +16,7 @@ This will create individual user directories and populate them with their assign
 ## 4. Set up each annotators Label Studio environment.
 This is the most annoying manual part. There is probably a better way to do this, but I haven't figured it out. Complete the following steps for each annotator:
 1. Go to the annotators directory (e.g., `cd users/alice`).
-2. Run `./setup/<user>_setup.sh`. This will set an environment variable and run Label Studio.
+2. Run `python run.py`. This will set an environment variable and run Label Studio.
 3. Log in with the username `<user>@annotation.local` and password `annotation`.
 4. Create a new project and give it a title. This project is specific to the annotator.
 5. In the documents tab, load the documents from `users/<user>/docs`.
