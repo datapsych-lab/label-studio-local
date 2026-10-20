@@ -102,7 +102,7 @@ def main():
     )
 
     try:
-        wait_for_label_studio(url, process, timeout_seconds=90)
+        wait_for_label_studio(url, process, timeout_seconds=5*60)
 
         print(f"Opening browser: {url}")
         try:
