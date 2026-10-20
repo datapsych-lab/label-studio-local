@@ -40,6 +40,10 @@ for user in users:
     run_script_file = BASE / "scripts" / "run.py"
     shutil.copy(run_script_file,user_dir)
     
+
+    run_script_file = BASE / "scripts" / "Run Label Studio.bat"
+    shutil.copy(run_script_file,user_dir)
+    
     user_docs_dir = user_dir / "docs"
     user_docs_dir.mkdir(parents=True, exist_ok=True)
     
