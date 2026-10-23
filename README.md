@@ -24,7 +24,7 @@ This is the most annoying manual part. There is probably a better way to do this
 7. Click `Save`, exit the browser window, kill Label Studio, and repeat for any remaining annotators.
 
 ## 5. Start annotating.
-Each annotator can now navigate to their directory, double click `run.py` to start Label Studio, log in with username `<user>@annotation.local` and password `annotation`, and annotate away.
+Each annotator can now navigate to their directory, double click `Run Label Studio.bat` to start Label Studio, log in with username `<user>@annotation.local` and password `annotation`, and annotate away.
 
 ## 6. Exporting annotations.
 Once annotators finish, you or they can export their annotations by running their `run.py`, opening the project, and clicking export. 
